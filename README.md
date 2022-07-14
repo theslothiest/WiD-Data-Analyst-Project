@@ -1,12 +1,21 @@
 # WiD-Data-Analyst-Project
 A Python beginner's portfolio project for Women in Data's Data Analyst Program.
 
-Data was pulled from Stack Overflow Annual Developer Survey, 2020 results specifically.
+Focus on job satisfaction and how the chosen variables (age, compensation, country/region/continent, education level/college attendance, employment level, ethnicity, gender, sexuality, weekly work hours, professional years of experience) possibly impact it.
+
+
+Notes: Before starting regressions and analysis, best to create a correlation matrix for the chosen variables, so as to drop any variables with too low or too high of a correlation. I was too tired to try to figure out a way to one-hot encode for my project, so skipped this step.
+
+
+Data was pulled from Stack Overflow Annual Developer Survey, 2020 results specifically. Most of the cleaning (i.e. removal of unnecessary variables, missing entries, etc.) was performed in Excel before exporting to Google Colab.
+
 Link: https://insights.stackoverflow.com/survey
+
 
 Code references:
 https://stackoverflow.com/questions/50733014/linear-regression-with-dummy-categorical-variables
 https://stackoverflow.com/questions/34007308/linear-regression-analysis-with-string-categorical-features-variables
+
 
 A guide to interpret results:
 https://medium.com/swlh/interpreting-linear-regression-through-statsmodels-summary-4796d359035a
