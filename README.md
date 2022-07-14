@@ -7,9 +7,9 @@ Focus on job satisfaction and how the chosen variables (age, compensation, count
 Notes: Before starting regressions and analysis, best to create a correlation matrix for the chosen variables, so as to drop any variables with too low or too high of a correlation. I was too tired to try to figure out a way to one-hot encode for my project, so skipped this step.
 
 
-Data was pulled from Stack Overflow Annual Developer Survey, 2020 results specifically. Most of the cleaning (i.e. removal of unnecessary variables, missing entries, etc.) was performed in Excel before exporting to Google Colab.
+Data was pulled from Stack Overflow Annual Developer Survey, 2020 results specifically. Most of the cleaning (i.e. removal of unnecessary variables, missing entries, etc.) was performed in Excel before exporting to Google Colab. Cleaned Excel data has been uploaded. Raw data can be found through the link below.
 
-Link: https://insights.stackoverflow.com/survey
+Link to the raw data: https://insights.stackoverflow.com/survey
 
 
 Code references:
